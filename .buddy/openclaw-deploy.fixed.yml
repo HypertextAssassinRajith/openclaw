@@ -1,7 +1,7 @@
 - pipeline: openclaw-deploy
   name: openclaw deploy
   refs:
-  - :default
+  - refs/heads/dev
   fail_on_prepare_env_warning: true
   events:
   - type: PUSH
