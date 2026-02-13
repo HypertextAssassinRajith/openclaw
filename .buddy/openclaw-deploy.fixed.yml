@@ -6,4 +6,4 @@
   events:
   - type: PUSH
     refs:
-    - :default
+    - refs/heads/dev
