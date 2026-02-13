@@ -15,9 +15,3 @@
     do_not_prune_images: true
     integration: github
     repository: https://github.com/hypertextassassinrajith/openclaw
-  - action: Run Docker Container
-    type: RUN_DOCKER_CONTAINER
-    mount_filesystem_disable: true
-    volume_mappings: []
-    cache_base_image: false
-    image_location: ACTION
